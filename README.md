@@ -83,6 +83,12 @@ Save with `Ctrl+X` → `Y` → `Enter`.
 source .venv/bin/activate
 python stash.py
 ```
+> **Note:** The venv only stays active for your current terminal session. If you close Termux, exit proot, or deactivate the venv, you'll need to reactivate it before running the script again:
+> ```bash
+> cd dump-stash
+> source .venv/bin/activate
+> python stash.py
+> ```
 ---
 ## Usage
 Drop files into your dump folder and run the script:
