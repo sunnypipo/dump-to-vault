@@ -3,7 +3,7 @@ A CLI tool that converts files (PDF, DOCX, images) into Markdown and writes them
 ---
 ## Why use this
 
-Most AI chat interfaces (ChatGPT, Claude, Gemini) accept PDF uploads, but they read the file themselves — you don't control how much of it they use. dump-stash converts your files to markdown first, so you can paste the readable text directly into the chat.
+Most AI chat interfaces (ChatGPT, Claude, Gemini) accept PDF uploads, but they read the file themselves you don't control how much of it they use. dump-stash converts your files to markdown first, so you can paste the readable text directly into the chat.
 
 meaning:
 - no skipped pages
