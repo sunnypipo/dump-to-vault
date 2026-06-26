@@ -19,7 +19,7 @@ OCR_LANGUAGE  = "eng+fil"
 MIN_TEXT_CHARS = 50
 OCR_OPTIONS = {
     "deskew":              True,
-    "clean":               True,
+    "clean":               False,
     "oversample":          300,
     "language":            OCR_LANGUAGE,
     "optimize":            1,
